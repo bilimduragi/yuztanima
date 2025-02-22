@@ -1,0 +1,19 @@
+{
+    "id": "teachablemachine",
+    "name": "Teachable Machine AI",
+    "description": "Teachable Machine kullanarak yüz tanıma yapar.",
+    "blocks": [
+        {
+            "opcode": "detectFace",
+            "blockType": "reporter",
+            "text": "Tanımlanan yüz [CLASS_NAME] mı?",
+            "arguments": {
+                "CLASS_NAME": {
+                    "type": "string",
+                    "defaultValue": "Ahmet"
+                }
+            }
+        }
+    ],
+    "javascript": "https://www.bilimduragi.com/teachable-machine.js"
+}
