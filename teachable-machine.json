@@ -15,5 +15,5 @@
             }
         }
     ],
-    "javascript": "https://raw.githubusercontent.com/bilimduragi/yuztanima/main/teachable-machine.js"
+    "javascript": "https://raw.githubusercontent.com/bilimduragi/yuztanima/main/teachable-machine.mjs"
 }
